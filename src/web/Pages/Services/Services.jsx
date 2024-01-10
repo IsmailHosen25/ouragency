@@ -1,7 +1,11 @@
 import React from 'react'
+import Footer from '../../GlobalComponents/Footer'
 
 export default function Services() {
   return (
-    <div>Services</div>
+    <div>
+      <h1>Services</h1>
+      <Footer/>
+    </div>
   )
 }

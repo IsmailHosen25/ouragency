@@ -9,8 +9,8 @@ import { MdContactMail,MdMiscellaneousServices,MdDesignServices } from "react-ic
 export default function Nav() {
   return (
     <>
-    <div className='fixed top-[35%] right-[0%] min-h-[100vh] bg-transparent'>
-      <div className='flex flex-col justify-center items-center gap-[5px] relative border-solid border-[3px]'>
+    <div className='fixed top-[35%] right-[0%] min-h-[100vh] bg-transparent z-[1000]'>
+      <div className='flex flex-col justify-center items-center gap-[5px] relative'>
          <div className={`flex justify-center items-center relative ${styles.haha}`}>
           <Link to="/" className={styles.linkicons}><FaHome /></Link>
           <div className={styles.linktitle}>Home</div>
