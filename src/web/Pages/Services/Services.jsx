@@ -1,11 +1,17 @@
-import React from 'react'
+import HeaderSlider from "./Components/HeaderSlider";
+import ContactForm from '../../GlobalComponents/ContactForm'
 import Footer from '../../GlobalComponents/Footer'
-import ContactForm from "../../GlobalComponents/ContactForm"
+
 export default function Services() {
   return (
-    <div>
-      <ContactForm/>
-      <Footer/>
-    </div>
+    <>
+      <div className="relative z-[100]">
+        <HeaderSlider/>
+        <ContactForm />
+        <Footer />
+      </div>
+    </>
+    
   )
 }
+

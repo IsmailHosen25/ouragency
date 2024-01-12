@@ -1,0 +1,88 @@
+.container{
+	transition: all .3s linear;
+}
+.highway_slider {
+	display:flex;
+	justify-content:center;
+	width:100%;
+	height:150px;
+}
+
+.highway_lane {
+    display:flex;
+    height:100%;
+
+}
+
+.highway_car {
+    flex:1;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background:#fff;
+    color:#343434;
+}
+
+.highway_barrier {
+    overflow:hidden;
+    position:relative;
+}
+
+.image{
+	width: 90px;
+	height: 90px;
+}
+
+@keyframes translatestf {
+	0% { transform:translateX(100%);  }
+	100% { transform:translateX(-500%);  }
+}
+.highway_barrier {
+	ul.highway-lane {
+		width:500%;
+		li.highway-car {
+			animation:translatestf 30s linear infinite;
+			h4 { font-size:28px; }
+		}
+	}
+}
+
+@keyframes translateinfinite {
+	100% { transform:translateX(calc(-180px * 12));  }
+}
+.infinite .highway_barrier {
+	background:#fff;
+	box-shadow:0 3px 10px -3px rgba(0,0,0,0.3);
+	&::before,
+	&::after {
+		content: " ";
+		position:absolute;
+		z-index:9;
+		width:180px;
+		height:100%;	
+	}
+	&::before {
+		top:0;left:0;
+		background: linear-gradient(to right, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 100%);
+	}
+	&::after {
+		top:0;right:0;
+		background: linear-gradient(to left, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 100%);
+	}
+	.highway_lane {
+		width:calc(180px * 24);
+		.highway_car {
+			width:180px;
+			animation:translateinfinite 25s linear infinite;
+			span.fab {
+				font-size:65px;
+			}
+		}
+	}
+}
+
+#red { background: #cb5454; }
+#orange { background: #cb8054; }
+#yellow { background: #cbba54; }
+#green { background: #69b46e; }
+#blue { background: #6091b0; }
