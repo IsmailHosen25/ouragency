@@ -26,19 +26,22 @@ export default function Team  () {
               <div className="flex items-center space-x-3 sm:justify-center">
                 <a
                   href={item.facebooklink}
-                  className="text-[#0866FF] transition-colors duration-300 hover:text-deep-purple-accent-400"
+                  target="_blank"
+                  className="text-[#0866FF] duration-[0.3s] hover:-translate-y-1"
                 >
-                    <FaFacebookF/>
+                    <FaFacebookF />
                 </a>
                 <a
                   href={item.linkedinlink}
-                  className="text-[#0A66C2] transition-colors duration-300 hover:text-deep-purple-accent-400"
+                  target="_blank"
+                  className="text-[#0A66C2]  duration-300 hover:-translate-y-1 "
                 >
                 <FaLinkedinIn/>
                 </a>
                 <a
                   href={item.instagramlink}
-                  className="text-[#EE1900] transition-colors duration-300 hover:text-deep-purple-accent-400"
+                  target="_blank"
+                  className="text-[#EE1900]  duration-300 hover:-translate-y-1"
                 >
                 <FaInstagram/>
                 </a>

@@ -5,8 +5,8 @@ export const leaderdata=[
         img:img,
         name:"Hasan",
         post:"Founder & CEO",
-        facebooklink:"#",
-        linkedinlink:"#",
+        facebooklink:"https://www.facebook.com/profile.php?id=100075446262873",
+        linkedinlink:"https://www.linkedin.com/in/md-ismail-hosen-81b176276/",
         twitterlink:"#",
         instagramlink:"#"
     },

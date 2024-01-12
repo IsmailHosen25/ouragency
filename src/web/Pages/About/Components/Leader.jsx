@@ -1,5 +1,5 @@
 import React from 'react'
-import "./Leader.css"
+import style from "./Leader.module.css"
 import {leaderdata} from "../Components/aboutdata"
 
 import { FaFacebookF,FaLinkedinIn,FaTwitter,FaInstagram } from "react-icons/fa";
@@ -11,22 +11,22 @@ export default function Leader() {
     <div className="w-[100%] flex justify-center items-center">
     <div className="w-[90%] flex flex-wrap justify-around items-center gap-[10px]">
         {leaderdata.map((item,i)=><div key={i} className="w-[320px] sm:w-[280px] md:w-[300px] lg:w-[320px]">
-            <div className="our-team">
-                <div className="team-image">
+            <div className={style.our_team}>
+                <div className={style.team_image}>
                     <img src={item.img}/>
-                    <p className="description">
+                    <p className={style.description}>
                         {item.description}
                     </p>
-                    <ul className="social">
-                        <li><a href={item.facebooklink} target=''><FaFacebookF className='text-[#0866FF] w-[100%] h-[100%] flex justify-center items-center p-[8px]'/></a></li>
-                        <li><a href={item.linkedinlink}><FaLinkedinIn className='text-[#0A66C2] w-[100%] h-[100%] flex justify-center items-center p-[8px]'/></a></li>
-                        <li><a href={item.twitterlink}><FaTwitter className='text-[#1C96E8] w-[100%] h-[100%] flex justify-center items-center p-[8px]'/></a></li>
-                        <li><a href={item.instagramlink}><FaInstagram className='text-[#EE1900] w-[100%] h-[100%] flex justify-center items-center p-[8px]'/></a></li>
+                    <ul className={style.social}>
+                        <li className={style.li}><a href={item.facebooklink} target="_blank" className={style.a} ><FaFacebookF className='text-[#0866FF] w-[100%] h-[100%] flex justify-center items-center p-[8px]'/></a></li>
+                        <li  className={style.li}><a href={item.linkedinlink} target="_blank" className={style.a}><FaLinkedinIn className='text-[#0A66C2] w-[100%] h-[100%] flex justify-center items-center p-[8px]'/></a></li>
+                        <li  className={style.li}><a href={item.twitterlink} target="_blank" className={style.a}><FaTwitter className='text-[#1C96E8] w-[100%] h-[100%] flex justify-center items-center p-[8px]'/></a></li>
+                        <li  className={style.li}><a href={item.instagramlink} target="_blank" className={style.a}><FaInstagram className='text-[#EE1900] w-[100%] h-[100%] flex justify-center items-center p-[8px]'/></a></li>
                     </ul>
                 </div>
-                <div className="team-info">
-                    <h3 className="title">{item.name}</h3>
-                    <span className="post">{item.post}</span>
+                <div className={style.team_info}>
+                    <h3 className={style.title}>{item.name}</h3>
+                    <span className={style.post}>{item.post}</span>
                 </div>
             </div>
         </div>)}
