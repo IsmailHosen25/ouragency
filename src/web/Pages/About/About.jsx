@@ -1,10 +1,11 @@
 import React from 'react'
 import Footer from '../../GlobalComponents/Footer'
 import ContactForm from "../../GlobalComponents/ContactForm"
+import Head from './Components/Head'
 export default function About() {
   return (
     <div>
-      <h1>About</h1>
+      <Head/>
       <ContactForm/>
       <Footer/>
     </div>
