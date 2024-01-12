@@ -55,7 +55,9 @@ export default function ContactForm() {
  })
 
   return (
-    <div className="min-w-[100%] relative z-[100] flex justify-center items-center">
+    <div className="min-w-[100%] flex flex-col justify-center items-center py-[20px]">
+      <h2 className="w-[80%] text-[25px] flex justify-end items-center gap-[5px] sm:text-[30px]"> <span className='w-[40%] bg-[#000] border-[1px] border-solid border-[#000]'></span>Contact Us</h2>
+    <div className="w-[100%] relative z-[100] flex justify-center items-center">
       <div className={`${style.container} min-w-[100%]`}>
         <span className={`${style.big_circle}`}></span>
         <img src={shape} className={`${style.square}`} />
@@ -153,5 +155,6 @@ export default function ContactForm() {
           theme="light"
         />
     </div>
+  </div>
   );
 }

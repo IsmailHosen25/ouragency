@@ -31,3 +31,45 @@ export const leaderdata=[
         instagramlink:"#"
     }
 ]
+export const teamdata=[
+    {
+        img:img,
+        name:"Hasan",
+        post:"Founder & CEO",
+        facebooklink:"#",
+        linkedinlink:"#",
+        instagramlink:"#"
+    },
+    {
+        img:img,
+        name:"Hasan",
+        post:"Founder & CEO",
+        facebooklink:"#",
+        linkedinlink:"#",
+        instagramlink:"#"
+    },
+    {
+        img:img,
+        name:"Hasan",
+        post:"Founder & CEO",
+        facebooklink:"#",
+        linkedinlink:"#",
+        instagramlink:"#"
+    },
+    {
+        img:img,
+        name:"Hasan",
+        post:"Founder & CEO",
+        facebooklink:"#",
+        linkedinlink:"#",
+        instagramlink:"#"
+    },
+    {
+        img:img,
+        name:"Hasan",
+        post:"Founder & CEO",
+        facebooklink:"#",
+        linkedinlink:"#",
+        instagramlink:"#"
+    }
+]
