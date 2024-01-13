@@ -35,16 +35,16 @@ export default function App() {
               >
                 {testimonial.map((item, i) => (
                   <SwiperSlide key={i}>
-                    <div class="testimonial">
-                      <span class="open quote">“</span>
-                      <div class="image">
-                        <img src={item.img} />
+                    <div className="testimonial">
+                      <span className="open quote">“</span>
+                      <div className="image">
+                        <img src={item.img} className="m-0 p-0 max-w-[100px] max-h-[100px] border-[10px] border-solid border-[#fff]"/>
                       </div>
-                      <p>{item.text}</p>
-                      <div class="source">
-                        <span>{item.name}</span>
+                      <p className="p">{item.text}</p>
+                      <div className="source">
+                        <span className="span">{item.name}</span>
                       </div>
-                      <span class="close quote">”</span>
+                      <span className="close quote">”</span>
                     </div>
                   </SwiperSlide>
                 ))}
