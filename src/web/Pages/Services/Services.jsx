@@ -2,6 +2,7 @@ import HeaderSlider from "./Components/HeaderSlider";
 import ContactForm from '../../GlobalComponents/ContactForm'
 import Footer from '../../GlobalComponents/Footer'
 import InfinitySlider from "./Components/InfinitySlider";
+import ServiceSection from "./Components/ServiceSection";
 
 export default function Services() {
   return (
@@ -9,6 +10,7 @@ export default function Services() {
       <div className="relative z-[100]">
         <HeaderSlider/>
         <InfinitySlider/>
+        <ServiceSection />
         <ContactForm />
         <Footer />
       </div>

@@ -105,3 +105,110 @@ export const headerdata = [
     }
 ]
 
+export const ServiceWeb=[
+    {
+        title:'Frontent',
+        subtitle:'Bring potential for your business',
+        disc:'discribe this service, and our experience on this site',
+        img: 'img1'
+    },
+    {
+        title:'Wardpress',
+        subtitle:'Devoloping your business environment',
+        disc:'discribe this service, and our experience on this site',
+        img: 'img2'
+    },
+    {
+        title:'Backend',
+        subtitle:'insights your data to take best decision for your business',
+        disc:'discribe this service, and our experience on this site',
+        img: 'img3'
+    },
+    {
+        title:'Fullstack',
+        subtitle:'Create a attrative content for your business',
+        disc:'discribe this service, and our experience on this site',
+        img: 'img4'
+    }
+]
+
+export const ServiceDA=[
+    {
+        title:'Numpy',
+        subtitle:'Bring potential for your business',
+        disc:'discribe this service, and our experience on this site',
+        img: 'img1'
+    },
+    {
+        title:'Pandas',
+        subtitle:'Devoloping your business environment',
+        disc:'discribe this service, and our experience on this site',
+        img: 'img2'
+    },
+    {
+        title:'Matplotlib',
+        subtitle:'insights your data to take best decision for your business',
+        disc:'discribe this service, and our experience on this site',
+        img: 'img3'
+    },
+    {
+        title:'Tenserflow',
+        subtitle:'Create a attrative content for your business',
+        disc:'discribe this service, and our experience on this site',
+        img: 'img4'
+    }
+]
+
+export const ServiceDM=[
+    {
+        title:'Facebook marketing',
+        subtitle:'Bring potential for your business',
+        disc:'discribe this service, and our experience on this site',
+        img: 'img1'
+    },
+    {
+        title:'Google marketing',
+        subtitle:'Devoloping your business environment',
+        disc:'discribe this service, and our experience on this site',
+        img: 'img2'
+    },
+    {
+        title:'SEO',
+        subtitle:'insights your data to take best decision for your business',
+        disc:'discribe this service, and our experience on this site',
+        img: 'img3'
+    },
+    {
+        title:'DropShiping',
+        subtitle:'Create a attrative content for your business',
+        disc:'discribe this service, and our experience on this site',
+        img: 'img4'
+    }
+]
+
+export const ServiceCC=[
+    {
+        title:'PhotoShope',
+        subtitle:'Bring potential for your business',
+        disc:'discribe this service, and our experience on this site',
+        img: 'img1'
+    },
+    {
+        title:'Video Editing',
+        subtitle:'Devoloping your business environment',
+        disc:'discribe this service, and our experience on this site',
+        img: 'img2'
+    },
+    {
+        title:'Short',
+        subtitle:'insights your data to take best decision for your business',
+        disc:'discribe this service, and our experience on this site',
+        img: 'img3'
+    },
+    {
+        title:'Rede',
+        subtitle:'Create a attrative content for your business',
+        disc:'discribe this service, and our experience on this site',
+        img: 'img4'
+    }
+]
