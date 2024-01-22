@@ -18,6 +18,7 @@
     border: 1px solid black;
     display: flex;
     border-radius: 1rem;
+    overflow: hidden;
 }
 .optiondiv div{
     padding: 1rem 2rem;
@@ -25,6 +26,31 @@
     font-weight: 600;
 }
 .optiondiv div:hover{
-    background-color: rgb(83, 122, 195);
+    background-color: #5562EA;
     color: white;
+}
+.optiondiv :nth-child(1){
+    border-right: 1px solid black;
+}.optiondiv :nth-child(2){
+    border-right: 1px solid black;
+}.optiondiv :nth-child(3){
+    border-right: 1px solid black;
+}
+
+@media (max-width: 440px){
+    .optiondiv{
+        width: 85%;
+        margin-top: -2rem;
+        padding-top: 0px;
+        flex-direction: column;
+    }
+    .optiondiv :nth-child(1){
+        border-right: 0px solid black;
+    }.optiondiv :nth-child(2){
+        border-right: 0px solid black;
+    }.optiondiv :nth-child(3){
+        border-right: 0px solid black;
+    }.optiondiv :nth-child(4){
+        border-right: 0px solid black;
+    }
 }

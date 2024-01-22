@@ -23,6 +23,9 @@ import hs2 from './images/home_slider_02.png'
 import hs3 from './images/home_slider_03.jpg'
 import hs4 from './images/home_slider_04.jpg'
 
+// service card's images for different service
+import web_front from './images/front-end.png'
+
 
 export const icons = [
     {
@@ -110,7 +113,7 @@ export const ServiceWeb=[
         title:'Frontent',
         subtitle:'Bring potential for your business',
         disc:'discribe this service, and our experience on this site',
-        img: 'img1'
+        img:  web_front
     },
     {
         title:'Wardpress',

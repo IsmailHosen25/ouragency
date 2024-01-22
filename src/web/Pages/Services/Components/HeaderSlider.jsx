@@ -10,7 +10,6 @@ import HeaderDev from './HeaderDev';
 import { headerdata } from '../data'
 
 export default function HeaderSlider() {
-  console.log(headerdata)
   return (
     <Swiper
     modules={[Navigation, Pagination, A11y, Autoplay]}
