@@ -3,11 +3,11 @@
     z-index: 120;
     padding: 3px;
     font-size: 30px;
-    border: 2px solid #39A7FF;
+    border: 2px solid #18B898;
     transition: 0.4s linear;
 }
 .linkicons:hover{
-   color: #39A7FF;
+   color: #18B898;
 }
  .linktitle{ 
     font-size: 20px;
@@ -16,7 +16,7 @@
     z-index: 100;
     right: -200px;
     transition: 0.4s linear;
-    color:#39A7FF;
+    color:#18B898;
  } 
  .haha:hover .linktitle{
     right: 50px;
