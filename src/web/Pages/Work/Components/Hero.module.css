@@ -1,0 +1,318 @@
+.herodiv{
+   width: 100%;
+   height: 100vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.mainhero{
+    width: 88%;
+    height: 88%;
+    position: relative;
+}
+.divtop{
+position: absolute;
+top: 0px;
+left: 0px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items:flex-start;
+}
+.divbtm{
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:flex-end;
+}
+.divtoph1{
+    background-color: #fff;
+    display: inline;
+    padding: 8px;
+    font-size: 50px;
+    border-bottom-right-radius: 24px;
+    position: relative;
+}
+.divtoph1::after{
+    content: "";
+    width: 30px;
+    height: 30px;
+    background:transparent;
+    position: absolute;
+    top: 0px;
+    right: -30px;
+    border-top-left-radius: 24px;
+    box-shadow: -7px -7px 0px #fff;
+
+}
+.divtoph2{
+    background-color: #fff;
+    display: inline;
+    padding: 8px;
+    font-size: 50px;
+    border-bottom-right-radius: 24px;
+    position: relative;
+}
+.divtoph2::after{
+    content: "";
+    width: 30px;
+    height: 30px;
+    background:transparent;
+    position: absolute;
+    top: 0px;
+    right: -30px;
+    border-top-left-radius: 24px;
+    box-shadow: -7px -7px 0px #fff;
+
+}
+.divtoph2::before{
+    content: "";
+    width: 30px;
+    height: 30px;
+    background:transparent;
+    position: absolute;
+    bottom: -30px;
+    left: 0px;
+    border-top-left-radius: 24px;
+    box-shadow: -7px -7px 0px #fff;
+
+}
+
+.divbtmh1{
+    background-color: #fff;
+    display: inline;
+    padding: 8px;
+    font-size: 50px;
+    border-top-left-radius: 24px;
+    position: relative;
+}
+.divbtmh1::after{
+    content: "";
+    width: 30px;
+    height: 30px;
+    background:transparent;
+    position: absolute;
+    top: -30px;
+    right: 0px;
+    border-bottom-right-radius: 24px;
+    box-shadow: 7px 7px 0px #fff;
+
+}
+.divbtmh1::before{
+    content: "";
+    width: 30px;
+    height: 30px;
+    background:transparent;
+    position: absolute;
+    bottom: 0px;
+    left: -30px;
+    border-bottom-right-radius: 24px;
+    box-shadow: 7px 7px 0px #fff;
+
+}
+.divbtmh2{
+    background-color: #fff;
+    display: inline;
+    padding: 8px;
+    font-size: 50px;
+    border-top-left-radius: 24px;
+    position: relative;
+}
+.divbtmh2::before{
+    content: "";
+    width: 30px;
+    height: 30px;
+    background:transparent;
+    position: absolute;
+    bottom: 0px;
+    left: -30px;
+    border-bottom-right-radius: 24px;
+    box-shadow: 7px 7px 0px #fff;
+}
+.icon{
+    background-color: #fff;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    border-top-right-radius: 50%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+.icon::before{
+    content: "";
+    width: 30px;
+    height: 30px;
+    background-color: transparent;
+    position: absolute;
+    top: -30px;
+    left: 0px;
+    border-bottom-left-radius: 50%;
+    box-shadow: -5px 5px 0px #fff;
+}
+.icon::after{
+    content: "";
+    width: 30px;
+    height: 30px;
+    background-color: transparent;
+    position: absolute;
+    bottom: 0px;
+    right: -30px;
+    border-bottom-left-radius: 50%;
+    box-shadow: -5px 5px 0px #fff;
+}
+.mainicon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90px;
+    height: 90px;
+    font-size: 50px;
+    background-color: black;
+    border-top-right-radius: 50%;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 10px;
+}
+@media (max-width:1200px){
+    .divtoph1{
+        font-size: 40px;
+    }
+    .divtoph2{
+        font-size: 40px;
+    }
+    .divbtmh1{
+        font-size: 40px;
+    }
+    .divbtmh2{
+        font-size: 40px;
+    }
+}
+@media (max-width:900px){
+    .icon{
+        display: none;
+    }
+}
+@media (max-width:780px){
+    .divtoph1{
+        font-size: 35px;
+        border-bottom-right-radius: 15px;
+    }
+    .divtoph1::after{
+        border-top-left-radius: 15px;
+    }
+    .divtoph2{
+        font-size: 35px;
+        border-bottom-right-radius: 15px;
+    }
+    .divtoph2::after{
+        border-top-left-radius: 15px;
+    }
+    .divtoph2::before{
+        border-top-left-radius: 15px;
+    }
+    .divbtmh1{
+        font-size: 35px;
+        border-top-left-radius: 15px;
+    }
+    .divbtmh1::after{
+        border-bottom-right-radius: 15px;
+    
+    }
+    .divbtmh1::before{
+        border-bottom-right-radius: 15px;
+    
+    }
+    .divbtmh2{
+        font-size: 35px;
+        border-top-left-radius: 15px;
+    }
+    .divbtmh2::before{
+        border-bottom-right-radius: 15px;
+    }
+}
+@media (max-width:630px){
+    .divtoph1{
+        font-size: 30px;
+        border-bottom-right-radius: 13px;
+    }
+    .divtoph1::after{
+        border-top-left-radius: 13px;
+    }
+    .divtoph2{
+        font-size: 30px;
+        border-bottom-right-radius: 13px;
+    }
+    .divtoph2::after{
+        border-top-left-radius: 13px;
+    }
+    .divtoph2::before{
+        border-top-left-radius: 13px;
+    }
+    .divbtmh1{
+        font-size: 30px;
+        border-top-left-radius: 13px;
+    }
+    .divbtmh1::after{
+        border-bottom-right-radius: 13px;
+    
+    }
+    .divbtmh1::before{
+        border-bottom-right-radius: 13px;
+    
+    }
+    .divbtmh2{
+        font-size: 30px;
+        border-top-left-radius: 13px;
+    }
+    .divbtmh2::before{
+        border-bottom-right-radius: 13px;
+    }
+}
+@media (max-width:480px) {
+    .herodiv{
+        height: 80vh;
+    }
+    .divtoph1{
+        font-size: 17px;
+        border-bottom-right-radius: 10px;
+    }
+    .divtoph1::after{
+        border-top-left-radius: 10px;
+    }
+    .divtoph2{
+        font-size: 17px;
+        border-bottom-right-radius: 10px;
+    }
+    .divtoph2::after{
+        border-top-left-radius: 10px;
+    }
+    .divtoph2::before{
+        border-top-left-radius: 10px;
+    }
+    .divbtmh1{
+        font-size: 17px;
+        border-top-left-radius: 10px;
+    }
+    .divbtmh1::after{
+        border-bottom-right-radius: 10px;
+    
+    }
+    .divbtmh1::before{
+        border-bottom-right-radius: 10px;
+    
+    }
+    .divbtmh2{
+        font-size: 17px;
+        border-top-left-radius: 10px;
+    }
+    .divbtmh2::before{
+        content: "";
+        border-bottom-right-radius: 10px;
+    }
+}
