@@ -8,6 +8,7 @@ import Services from "./web/Pages/Services/Services"
 import Contact from "./web/Pages/Contact/Contact"
 import Privacy_policy from "./web/GlobalComponents/Privacy_policy"
 import Terms from './web/GlobalComponents/Terms'
+import RefundPolicy from './web/GlobalComponents/RefundPolicy'
 export default function Layout() {
   return (
     <>
@@ -20,6 +21,7 @@ export default function Layout() {
        <Route path='/Contact' element={<Contact/>}/>
        <Route path='/privacypolicy' element={<Privacy_policy/>}/>
        <Route path='/terms' element={<Terms/>}/>
+       <Route path='/refund' element={<RefundPolicy/>}/>
      </Routes>
      
     </>
