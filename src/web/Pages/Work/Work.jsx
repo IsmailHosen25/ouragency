@@ -1,11 +1,12 @@
 import React from 'react'
 import Footer from '../../GlobalComponents/Footer'
 import ContactForm from '../../GlobalComponents/ContactForm'
+import WorkCard from './WorkCard'
 
 export default function Work() {
   return (
     <div>
-      <h1>Work</h1>
+      <WorkCard />
       <ContactForm/>
       <Footer/>
     </div>

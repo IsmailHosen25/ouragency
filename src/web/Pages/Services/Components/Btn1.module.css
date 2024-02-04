@@ -1,0 +1,52 @@
+.btn {
+    border: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all .3s linear;
+}
+
+.btn:hover {
+    padding-left: 8px;
+    transition: all .3s linear;
+}
+
+.input {
+    color: black;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+.input:focus {
+    outline: 2px solid black;
+}
+
+.input::placeholder {
+    color: gray;
+}
+
+
+.wrapper {
+    width: 280px;
+    max-width: 100%;
+    position: relative;
+}
+
+.input {
+    background: rgba(255, 255, 255, 0.1);
+    border: 2px solid black;
+    border-radius: 50px;
+    padding: .5rem 2rem;
+    width: 100%;
+}
+
+.btn {
+    background: black;
+    border-radius: 50px;
+    aspect-ratio: 1;
+    height: 80%;
+    position: absolute;
+    top: 10%;
+    right: 5px;
+}
