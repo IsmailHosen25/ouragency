@@ -35,13 +35,13 @@ export default function Footer() {
               <Link to="/" className="hover:text-[#0099FF] duration-[0.3s]">
                 Home
               </Link>
-              <Link to="/" className="hover:text-[#0099FF] duration-[0.3s]">
+              <Link to="/privacypolicy" className="hover:text-[#0099FF] duration-[0.3s]">
                 Privacy @ Policy
               </Link>
-              <Link to="/" className="hover:text-[#0099FF] duration-[0.3s]">
+              <Link to="/terms" className="hover:text-[#0099FF] duration-[0.3s]">
                 Terms of Services
               </Link>
-              <Link to="/" className="hover:text-[#0099FF] duration-[0.3s]">
+              <Link to="/refund" className="hover:text-[#0099FF] duration-[0.3s]">
                 Refund Policy
               </Link>
             </div>
