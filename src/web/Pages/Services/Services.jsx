@@ -7,7 +7,7 @@ import ServiceSection from "./Components/ServiceSection";
 export default function Services() {
   return (
     <>
-      <div className="relative z-[100]">
+      <div>
         <HeaderSlider/>
         <InfinitySlider/>
         <ServiceSection />
