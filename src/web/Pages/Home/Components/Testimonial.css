@@ -30,8 +30,8 @@
 	align-items: flex-end;
 	position: relative;
 	box-shadow: 0 2px 2px hsl(0deg 0% 0%/.075), 0 3px 3px hsl(0deg 0% 0%/.075), 0 5px 5px hsl(0deg 0% 0%/.075), 0 9px 9px hsl(0deg 0% 0%/.075), 0 17px 17px hsl(0deg 0% 0%/.075);
-	position: relative;
-	&:after {
+	position: relative;}
+	.testimonial::after {
 		content: "";
 		border: 8px solid navy;
 		border-radius: 50px;
@@ -42,7 +42,7 @@
 		left: 1.5em;
 		top: -2em;
 	}
-	&:before {
+	.testimonial:before {
 		content: "";
 		position: absolute;
 		bottom: -6.2em;
@@ -62,17 +62,16 @@
 		background: navy;
 		color: #fff;
 		text-align: center;
-		line-height: 1.25;
-		&.open {
+		line-height: 1.25;}
+		.open {
 			top: 0;
 			left: 0;
 		}
-		&.close {
+		.close {
 			bottom: 0;
 			right: 0;
 		}
-	}
-	p {
+	.p {
 		width: 80%;
 		display: inline-block;
 		font-weight: bold;
@@ -81,32 +80,24 @@
 	.source {
 		width: 40%;
 		height: 100%;
-		position: relative;		
-		span {			
+		position: relative;		}
+		.span {			
 			display: inline-block;
 			font-weight: bold;
 			font-size: 1.2rem;
 			position: relative;
 			margin-left: 1rem;
-			text-align: right;			
-			&:before {
-				content: "\2014";
+			text-align: right;		}	
+			.span::before {
+				content: "";
 				display: inline;
 				margin-right: 5px;
 			}
-		}		
-	}
+		
+	
 	.image {
 		transform: rotate(-5deg);
 		position: absolute;
 		top: 0.5em;
 		right: 1.5em;
-		img {
-			border: 10px solid #fff;
-			margin: 0;
-			padding: 0;
-            width: 100px;
-            height: 100px;
-		}
 	}
-}
