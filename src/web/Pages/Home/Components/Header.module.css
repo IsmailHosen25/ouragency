@@ -1,0 +1,61 @@
+.airballon{
+    position:absolute;
+    top:45%;
+    right:12%;
+    z-index: 1000;
+    animation: airballon 120s linear infinite;
+}
+.rocket{
+    position: absolute;
+    z-index: 1000;
+    animation: rocket 20s linear infinite;
+}
+@keyframes rocket {
+    0%{
+        bottom: -10%;
+        left: 5%;
+        transform: rotate(0deg);
+    }
+    30%{
+
+        bottom: 0%;
+        left: 5%;
+        transform: rotate(0deg);
+
+    }
+    40%{
+        bottom: 50%;
+        left: 5%;
+        transform: rotate(0deg);
+    }
+    60%{
+        left: 10%;
+    }
+    80%{
+        left: 20%;
+        transform: rotate(80deg);
+    }
+    100%{
+        bottom: 100%;
+        left: 80%;
+        transform: rotate(90deg);
+    }
+}
+@keyframes airballon {
+    0%{
+        transform: translateX(20vw);
+    }
+    100%{
+        transform: translateX(-100vw)
+    }
+}
+@media (min-width:1024px) {
+    .airballon{
+        top:45%;
+    }
+}
+@media (min-width:1280px) {
+    .airballon{
+        top:35%;
+    }
+}
