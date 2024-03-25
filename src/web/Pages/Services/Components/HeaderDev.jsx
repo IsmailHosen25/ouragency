@@ -1,6 +1,6 @@
 import style from './HeaderDev.module.css'
 
-export default function HeaderDev({title, subtitle, disc, img}) {
+export default function HeaderDev({title, subtitle, disc, img,btnclick}) {
   return (
     <div className={style.mdiv}>
     <div className={style.headertext}>
@@ -8,7 +8,7 @@ export default function HeaderDev({title, subtitle, disc, img}) {
       <h1 className=''>{title}</h1>
       <h2 className=''>{subtitle}</h2>
       <p>{disc}</p>
-      <button className={style.headerbtn}>Get start</button>
+      <button className={style.headerbtn} onClick={btnclick}>Get start</button>
     </div>
     <div className={style.headerimg}>
       <img src={img} alt="Image is not found" />

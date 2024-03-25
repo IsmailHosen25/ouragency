@@ -19,16 +19,18 @@ export default function ServiceCard({title, subtitle, disc, img}) {
   })
   return (
     <div className={style.main}>
-      <div className={style.imgdiv}><img src={img} alt='Image is not found' /></div>
-      <div className={style.textdiv}>
-        <h1 className='text-[25px] font-[700]'>{title}</h1>
-        <h3 className='text-[17px] font-[500]'>{subtitle}</h3>
-        <p className='mt-4 text-[13px] font-[500] text-justify'>{disc}</p>
-
+      <div className={style.card}>
+             <div className={style.card_info}>
+                 <h1>{title}</h1>
+                 <p>{disc}</p>
+                 <div className={style.card_input}>
+                    <Btn1/>
+                 </div>
+             </div>
+             <div className={style.img}>
+                <img src={img} className={style.img_tag}/>
+             </div>
       </div>
-      <div className={style.btndiv}>
-        <Btn1/>
-      </div>
-    </div>
+   </div>
   )
 }

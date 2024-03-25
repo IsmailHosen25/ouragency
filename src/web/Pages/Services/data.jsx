@@ -110,7 +110,7 @@ export const headerdata = [
 
 export const ServiceWeb=[
     {
-        title:'Frontent',
+        title:'Frontend',
         subtitle:'Bring potential for your business',
         disc:'discribe this service, and our experience on this site',
         img:  web_front

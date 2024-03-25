@@ -9,7 +9,7 @@ import 'swiper/css/scrollbar';
 import HeaderDev from './HeaderDev';
 import { headerdata } from '../data'
 
-export default function HeaderSlider() {
+export default function HeaderSlider({click}) {
   return (
     <Swiper
     modules={[Navigation, Pagination, A11y, Autoplay]}
@@ -19,7 +19,7 @@ export default function HeaderSlider() {
     pagination={{ clickable: true }}
     >
         {headerdata.map((data,i)=><SwiperSlide key={i}>
-            <HeaderDev title={data.title} subtitle={data.subtitle} disc={data.disc} img={data.bgimg} />
+            <HeaderDev title={data.title} subtitle={data.subtitle} disc={data.disc} img={data.bgimg} btnclick={click}/>
           </SwiperSlide>)}
     </Swiper>
   )

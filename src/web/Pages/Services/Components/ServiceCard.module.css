@@ -1,56 +1,81 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
 .main{
-    width: 310px;
-    height: 392px;
-    border-left: 2px solid gray;
-    border-top: 2px solid gray;
-    background-color: transparent;
-    border-bottom-right-radius: 20px;
-    overflow-y: hidden;
-    transition: all .7s linear;
-    box-shadow: 5px 5px 5px 0 rgba(0, 0, 0, .5)
+    width: 100%;
 
-}
-.imgdiv{
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.imgdiv img{
+.card{
     width: 80%;
-    height: 80%;
-    object-fit: fill;
+    height: 200px;
     overflow: hidden;
-    transition: all .5s linear;
-}
-.imgdiv{
-    width: 100%;
-    height: 202px;
-    text-align: center;
-
-}
-.textdiv{
-    padding: 17px;
-    width: 100%;
-    height: 180px;
-}
-.btndiv{
-    width: 100%;
-    height: 73px;
-    display: none;
-}
-.main:hover{
-    height: 455px;
-    transition: all .3s linear;
-}
-.main:hover .btndiv{
+    padding: 1rem 3rem;
     display: flex;
-    justify-content: center;
+    flex-direction: row;
+    justify-content:space-between;
     align-items: center;
-    transition: all .3s linear;
+    background-color: #F8F8F8;
+    cursor: pointer;
+    border-radius: 10px;
 }
-.main:hover .imgdiv img{
-    transform: rotate(5deg);
-    transition: all .3s linear;
+.card_info{
+    width: 70%;
+}
+.card_info h1{
+   font-size: 1.5rem;
+   color: #1CD2AE;
+}
+.card_info p{
+    color: #B4B4B8;
+}
+.card_input{
+    margin-top: 1rem;
+}
+.img{
+    width: 30%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    transform: rotate(-8deg);
+}
+.img_tag{
+    width: 200px;
+    height: 200px;
+    transition:all 0.2s  linear;
+}
+.card:hover  .img_tag{
+   width: 230px;
+   height: 230px;
+   transform: translateX(-10px);
+   transition:all 0.2s  linear;
 
+}
+@media (max-width:680px) {
+    .card{
+        width: 98%;
+        height: 350px;
+        padding: 1rem 2rem;
+    }
+}
+@media (max-width:1080px) {
+    .card_info{
+        width: 95%;
+    }
+    .card{
+       height: 330px;
+       display: block;
+    }
+    .img{
+       margin-top: 2rem;
+       width: 100%;
+       display: flex;
+       justify-content: flex-end;
+       align-items: center;
+    }
 }
 

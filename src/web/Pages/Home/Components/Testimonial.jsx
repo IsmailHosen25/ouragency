@@ -38,7 +38,7 @@ export default function App() {
                     <div className="testimonial">
                       <span className="open quote">“</span>
                       <div className="image">
-                        <img src={item.img} className="m-0 p-0 max-w-[100px] max-h-[100px] border-[10px] border-solid border-[#fff]"/>
+                        <img src={item.img} className="m-0 p-0 max-+w-[100px] max-h-[100px] border-[10px] border-solid border-[#fff]"/>
                       </div>
                       <p className="p">{item.text}</p>
                       <div className="source">
