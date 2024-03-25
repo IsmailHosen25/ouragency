@@ -28,22 +28,53 @@
     font-size: 15px;
     text-align: justify;
 }
-.headerbtn{
-    width: 200px;
-    font-size: 25px;
-    margin-top: 60px;
-    padding: 3px 30px;
-    border: 2px solid #444;
-    letter-spacing: 1px;
+.headerbtn {
+      margin-top: 1.5rem;
+      background-color: #3DD1E7;
+      border: 0 solid #E5E7EB;
+      box-sizing: border-box;
+      color: #000000;
+      display: flex;
+      font-family: ui-sans-serif,system-ui,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+      font-size: 1rem;
+      font-weight: 700;
+      justify-content: center;
+      line-height: 1.75rem;
+      padding: .75rem 1.65rem;
+      position: relative;
+      text-align: center;
+      text-decoration: none #000000 solid;
+      text-decoration-thickness: auto;
+      width: 100%;
+      max-width: 460px;
+      position: relative;
+      cursor: pointer;
+      transform: rotate(-2deg);
+      user-select: none;
+      -webkit-user-select: none;
+      touch-action: manipulation;
+    }
     
-}
-.headerbtn:hover{
-    color:white;
-    background-color: #00a91c;
-    border: 2px solid #00a91c;
-    box-shadow: 3px 3px 0px 0px rgba(0,0,0,0.7);
-
-}
+.headerbtn:focus {
+      outline: 0;
+    }
+    
+.headerbtn:after {
+      content: '';
+      position: absolute;
+      border: 1px solid #000000;
+      bottom: 4px;
+      left: 4px;
+      width: calc(100% - 1px);
+      height: calc(100% - 1px);
+    }
+    
+.headerbtn:hover:after {
+      bottom: 2px;
+      left: 2px;
+    }
+    
+    
 .headerimg{
     width: 70%;
     height: auto;
@@ -55,7 +86,6 @@
 
 @media (max-width: 440px){
     .mdiv{
-        margin-bottom: 50px;
         min-height: 40vh;
         flex-wrap: wrap-reverse;
         justify-content: flex-start;
@@ -73,13 +103,14 @@
 }
 @media (max-width:780px) {
     .mdiv{
+        margin-bottom: 30px;
         flex-wrap: wrap-reverse;
         justify-content: start;
     }
     .headertext{
         width: 100%;
         align-items: center;
-        padding-top: 10px;
+        padding-top: 30px;
     }
     .headerimg{
         width: 100%;
@@ -89,10 +120,12 @@
         margin-bottom: 0px;
     }
     .headerbtn{
-        margin-top: 10px;
-        margin-bottom: 30px;
+    margin-bottom:2rem ;
+    padding: .75rem 3rem;
+    font-size: 1.25rem;
     }
 }
+    
 @media (max-width:1100px) {
     .headertext h1{
         font-size: 27px;
@@ -102,10 +135,5 @@
     }
     .headertext p{
         font-size: 11px;
-    }
-    .headerbtn{
-        width: 130px;
-        font-size: 16.25px;
-        padding: 2px 20px;
     }
 }

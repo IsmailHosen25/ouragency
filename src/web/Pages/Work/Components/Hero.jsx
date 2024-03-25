@@ -1,4 +1,4 @@
-import workhero from "../../../../assets/workhero2.jpg";
+import workhero from "../../../../assets/bannar.jpg";
 import styles from "./Hero.module.css";
 import { FaPenRuler } from "react-icons/fa6";
 export default function Hero() {

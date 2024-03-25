@@ -9,7 +9,7 @@ export default function WorkCard() {
     <div className={style.container}>
         <div className={style.card}>
         <div className={style.cardimg}>
-            <img src={img1} />
+            <img className={style.cardmain_img} src={img1} />
         </div>
         <div className={style.cardtext}>
             <span className={style.texttitle}>

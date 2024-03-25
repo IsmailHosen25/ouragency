@@ -9,10 +9,10 @@ export default function ServiceSection() {
     <div className={style.main}>
       <h1 className='text-[4rem] font-[400] pb-[1.5rem]'>Service</h1>
       <div className={style.optiondiv}>
-        <div className={`${catagory==='web'? 'bg-[#5562EA] text-white':''}`} onClick={()=>setCatagory('web')}>Web Dev</div>
-        <div className={`${catagory==='da'? 'bg-[#5562EA] text-white':''}`} onClick={()=>setCatagory('da')}>Data Analysis</div>
-        <div className={`${catagory==='dm'? 'bg-[#5562EA] text-white':''}`} onClick={()=>setCatagory('dm')}>Digital Marketing</div>
-        <div className={`${catagory==='cc'? 'bg-[#5562EA] text-white':''}`} onClick={()=>setCatagory('cc')}>Content Creation</div>
+        <div className={`${catagory==='web'? 'bg-[#1CD2AE] text-white':''}`} onClick={()=>setCatagory('web')}>Web Dev</div>
+        <div className={`${catagory==='da'? 'bg-[#1CD2AE] text-white':''}`} onClick={()=>setCatagory('da')}>Data Analysis</div>
+        <div className={`${catagory==='dm'? 'bg-[#1CD2AE] text-white':''}`} onClick={()=>setCatagory('dm')}>Digital Marketing</div>
+        <div className={`${catagory==='cc'? 'bg-[#1CD2AE] text-white':''}`} onClick={()=>setCatagory('cc')}>Content Creation</div>
       </div>
       <div className='flex flex-wrap justify-center items-center gap-[3rem]'>
         {catagory==='web'? ServiceWeb.map((data,i)=><ServiceCard key={i} title={data.title} subtitle={data.subtitle} disc={data.disc} img={data.img}/>):''}

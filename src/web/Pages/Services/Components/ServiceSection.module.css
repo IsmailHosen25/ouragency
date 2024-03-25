@@ -20,8 +20,9 @@
     font-weight: 600;
 }
 .optiondiv div:hover{
-    background-color: #5562EA;
+    background-color: #1CD2AE;
     color: white;
+    cursor: pointer;
 }
 .optiondiv :nth-child(1){
     border-right: 1px solid black;

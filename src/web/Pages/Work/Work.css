@@ -1,0 +1,26 @@
+.mySwiper_work .swiper {
+  width: 100%;
+  height: 80vh;
+}
+
+.mySwiper_work .swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mySwiper_work .swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+@media (max-width:1024px) {
+  .mySwiper_work .swiper {
+    height: 40vh;
+  }
+}
