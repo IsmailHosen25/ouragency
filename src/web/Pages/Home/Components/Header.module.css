@@ -2,7 +2,7 @@
     position:absolute;
     top:45%;
     right:12%;
-    z-index: 1000;
+    z-index: 900;
     animation: airballon 120s linear infinite;
 }
 .rocket{

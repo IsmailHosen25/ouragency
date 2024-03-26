@@ -14,6 +14,7 @@
     box-shadow: #7FC7D9 0px 1px 3px;
     border-radius: 16px;
     padding: 18px 36px;
+    cursor: pointer;
 }
 .desc{
   font-size: 2rem;

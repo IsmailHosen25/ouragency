@@ -135,9 +135,11 @@ const Skills = () => {
                 <motion.div
                 key={index}
                 variants={item}
-                className={styles.Skill}>
+                className={styles.Skill}
+                onClick={()=>navigate("/services")}
+                >
                   <SkillTitle>{skill.title}</SkillTitle>
-                  <SkillList onClick={()=>navigate("/services")}>
+                  <SkillList >
                     {skill.skills.map((item,index) => (
                       <SkillItem key={index}>
                         <SkillImage src={item.image}/>

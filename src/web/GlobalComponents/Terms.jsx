@@ -1,6 +1,9 @@
-import React from 'react'
+import React,{useEffect} from 'react'
 import Footer from './Footer'
 export default function Terms() {
+  useEffect(()=>{
+    window.scrollTo({top:0,behavior:"smooth"})
+  },[])
   return (
     <div className="w-[100%] flex flex-col justify-center items-start">
         <div className="w-[100%] relative flex justify-center items-center">
