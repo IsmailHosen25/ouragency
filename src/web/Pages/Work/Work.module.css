@@ -1,0 +1,35 @@
+.work_main{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items:flex-start;
+  gap: 4rem;
+  padding-top: 3rem;
+}
+.work_title{
+  padding-left: 10%;
+  font-size: 2rem;
+  color: #18526A;
+  border-bottom:2px solid #1BCEAA ;
+}
+.work_title span{
+  color: #1BCEAA;
+  font-size: 2.5rem;
+}
+.allwork{
+  padding: 0 0.5rem;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+@media (max-width:480px) {
+  .work_title{
+    font-size: 1.5rem;
+  }
+  .work_title span{
+    font-size: 2rem;
+  }
+}
+
